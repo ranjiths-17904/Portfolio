@@ -70,11 +70,11 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #000000;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #d0aec9;
 }
 
 /**
@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #d0aec9;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -100,9 +100,9 @@ a:hover, a:focus, a:active {
  *
  * ------------------------------------------------------------------- 
  */
-h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
+h1, h2, h3, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #2e102a;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -1267,7 +1267,7 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 60px;
+		left: 5px;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1522,10 +1522,11 @@ header .logo a {
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
-	font-family: "poppins-bold", sans-serif;
-	font-size: 1.8rem;
+	font-family: "Jazz LET, fantasy";
+	color: #7f066f;
+	font-size: 2.6rem;
 	text-transform: uppercase;
-	letter-spacing: .25rem;
+	letter-spacing: .41rem;
 }
 .about-content .info-list {
 	list-style: none;
@@ -1945,7 +1946,7 @@ header .logo a {
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -2122,7 +2123,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #FF0077;
+	color: rgb(54, 119, 188);
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2509,9 +2510,9 @@ footer .social {
 }
 footer .footer-social {
 	display: inline-block;
-	font-size: 2.1rem;
+	font-size: 2.5rem;
 	margin: 0;
-	padding: 0;
+	padding: 17px;
 	position: relative;
 	top: -.3rem;
 }
@@ -2578,7 +2579,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: rgb(54, 119, 188);
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
